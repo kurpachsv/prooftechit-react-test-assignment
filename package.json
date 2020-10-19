@@ -1,0 +1,22 @@
+{
+  "name": "prooftechit-react-test-assignment",
+  "version": "1.0.0",
+  "description": "Тестовое задание на позицию React-разработчика",
+  "main": "index.js",
+  "scripts": {
+    "convert:pdf": "npx md-to-pdf ./README.md && mv README.pdf task.pdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurpachsv/prooftechit-react-test-assignment.git"
+  },
+  "author": "kurpachsv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kurpachsv/prooftechit-react-test-assignment/issues"
+  },
+  "homepage": "https://github.com/kurpachsv/prooftechit-react-test-assignment#readme",
+  "dependencies": {
+    "md-to-pdf": "3.1.1"
+  }
+}
